@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json({limit:"60mb"}));
 app.use(express.json());
 app.use('/',routes)
-const mongoString ='mongodb+srv://ayoseun:Jared15$@cashflakes.dgkmv.mongodb.net/test?retryWrites=true&w=majority';
+const mongoString ='mongodb+srv://ayoseun:J******$@c*****s.dgkmv.mongodb.net/test?retryWrites=true&w=majority';
 mongoose.connect(mongoString);
 const database = mongoose.connection;
 
